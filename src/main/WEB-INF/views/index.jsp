@@ -7,6 +7,6 @@
 		<title>지수빈 포토폴리오 사이트</title>
 	</head>
 	<body>
-		안녕하세요!
+		안녕하세요!!
 	</body>
 </html>
