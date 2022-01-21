@@ -1,6 +1,39 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Created by https://www.toptal.com/developers/gitignore/api/eclipse,java,maven,windows,git
-# Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,java,maven,windows,git
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Created by https://www.toptal.com/developers/gitignore/api/git,java,eclipse,maven,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=git,java,eclipse,maven,windows
 
 ### Eclipse ###
 .metadata
@@ -107,7 +140,6 @@ local.properties
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
 
 ### Maven ###
 target/
@@ -122,6 +154,7 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
+### Maven Patch ###
 # Eclipse m2e generated files
 # Eclipse Core
 .project
@@ -154,4 +187,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/eclipse,java,maven,windows,git
+# End of https://www.toptal.com/developers/gitignore/api/git,java,eclipse,maven,windows
