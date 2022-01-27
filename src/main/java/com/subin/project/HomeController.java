@@ -6,11 +6,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 	
-	// 수빈 홈페이지 첫 화면
+	// main-layout
+	@RequestMapping(value = "/layout/main")
+	public String getMainLayout() throws Exception{
+		
+		return "layout/main";
+	}
+	
+	// index
 	@RequestMapping(value = "/")
-	public String goIndex() {
+	public String goIndex() throws Exception{
 		
 		return "index";
 	}
-
+	
 }
