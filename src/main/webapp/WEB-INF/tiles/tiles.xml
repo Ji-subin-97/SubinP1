@@ -11,10 +11,12 @@
 	</definition>
 	
 	<definition name="*" extends="main-layout">
+		<put-attribute name="css" value="{1}"></put-attribute>
 		<put-attribute name="body" value="/WEB-INF/views/{1}.jsp"></put-attribute>
 	</definition>
 	
 	<definition name="*/*" extends="main-layout">
+		<put-attribute name="css" value="{2}"></put-attribute>
 		<put-attribute name="body" value="/WEB-INF/views/{1}/{2}.jsp"></put-attribute>
 	</definition>
 	
